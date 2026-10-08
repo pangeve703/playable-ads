@@ -1,0 +1,29 @@
+{
+  "name": "playable-ads",
+  "platform": "web-mobile",
+  "buildPath": "project://build",
+  "outputName": "web-mobile",
+  "startScene": "4c24675d-41dc-4c34-8eed-e9e0ef9e419b",
+  "scenes": [{ "url": "db://assets/scenes/main.scene", "uuid": "4c24675d-41dc-4c34-8eed-e9e0ef9e419b" }],
+  "debug": false,
+  "sourceMaps": false,
+  "md5Cache": false,
+  "mainBundleIsRemote": false,
+  "mainBundleCompressionType": "merge_all_json",
+  "inlineEnum": true,
+  "mangleProperties": false,
+  "skipCompressTexture": true,
+  "packAutoAtlas": true,
+  "useSplashScreen": false,
+  "polyfills": { "asyncFunctions": true },
+  "experimentalEraseModules": false,
+  "nativeCodeBundleMode": "wasm",
+  "engineModulesConfigKey": "defaultConfig",
+  "overwriteProjectSettings": {
+    "includeModules": { "gfx-webgl2": "on", "physics": "inherit-project-setting", "physics-2d": "inherit-project-setting" },
+    "macroConfig": { "cleanupImageCache": "on" }
+  },
+  "packages": {
+    "web-mobile": { "orientation": "auto", "embedWebDebugger": false, "useWebGPU": false }
+  }
+}
